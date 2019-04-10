@@ -1,7 +1,5 @@
 package com.dschumann.deg.section.one;
 
-import java.util.Timer;
-
 public class secondUebung {
 
     public static void aufgabeEinsZwei(){
