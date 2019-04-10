@@ -1,8 +1,8 @@
-package com.dschumann.deg.uebung.zwei;
+package com.dschumann.deg.section.one;
 
 import java.util.Timer;
 
-public class firstSection {
+public class secondUebung {
 
     public static void aufgabeEinsZwei(){
         int[] myAr = new int[10];
@@ -80,11 +80,15 @@ public class firstSection {
         System.out.println((1.0/49)*49); // 0.999999...
         System.out.println(Math.sqrt(3) * Math.sqrt(3) == 3); // false
 
-        System.out.println(System.currentTimeMillis());
+        final long timeStart = System.nanoTime();
+
         int ueberlauf = Integer.MAX_VALUE;
         System.out.println(ueberlauf + 1); //s. Aufgabe 5
-        System.out.println("Laufzeit: " + System.currentTimeMillis()); // ist keine Laufzeit zu sehen ..
-        //TODO: Um Laufzeit kümmern
+
+        final long timeEnd = System.nanoTime();
+        System.out.println("Laufzeit: " + (timeEnd - timeStart) + " Nanosekunden");
+        //gibt nichts herrausragendes zur Zeit zu sagen. Mehr oder weniger gleiche Laufzeiten zu normalen Rechenoperationen
+
     }
 
     private static void printComplexArray(int[][] array){

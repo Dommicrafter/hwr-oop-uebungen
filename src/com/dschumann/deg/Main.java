@@ -1,18 +1,18 @@
 package com.dschumann.deg;
 
-import com.dschumann.deg.uebung.zwei.firstSection;
+import com.dschumann.deg.section.one.secondUebung;
 
 public class Main {
 
     public static void main(String[] args) {
-        //firstSection.aufgabeEinsZwei();
+        //secondUebung.aufgabeEinsZwei();
 
-        //firstSection.aufgabeDreiVier();
+        //secondUebung.aufgabeDreiVier();
 
-        //firstSection.aufgabeFuenf();
+        //secondUebung.aufgabeFuenf();
 
-        //firstSection.aufgabeSechs();
+        //secondUebung.aufgabeSechs();
 
-        firstSection.augabeSiebenAchtNeun();
+        secondUebung.augabeSiebenAchtNeun();
     }
 }
