@@ -1,6 +1,6 @@
 package com.dschumann.deg;
 
-import com.dschumann.deg.section.one.secondUebung;
+import com.dschumann.deg.section.two.thirdUebung;
 
 public class Main {
 
@@ -13,6 +13,12 @@ public class Main {
 
         //secondUebung.aufgabeSechs();
 
-        secondUebung.augabeSiebenAchtNeun();
+        //secondUebung.augabeSiebenAchtNeun();
+
+        //thirdUebung.AufgabeVier();
+
+        //thirdUebung.AufgabeFuenf();
+
+
     }
 }
